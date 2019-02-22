@@ -43,7 +43,7 @@ class Client {
   String get apiToken => this._apiToken;
 
   Map<String, String> get headers => {
-        'Authorization': 'Bearer $apiToken',
+        'Authorization': 'Token $apiToken',
         'Content-Type': 'application/json',
       };
 
